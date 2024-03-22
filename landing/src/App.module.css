@@ -1,0 +1,9 @@
+.wrap-principal{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.firstPageHeading{
+    padding-top: 100px;
+}

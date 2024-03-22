@@ -1,0 +1,55 @@
+:root {
+  --text-title: #05a8a8;
+  --text-p: #ffffff;
+  --bg-primary: #0a1424;
+  --bg-secondary: #162336;
+  --bg-third: #223147;
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --color-shadow: rgba(51, 185, 219, 0.315) 0px 5px 15px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
+  font-family: "Inter", sans-serif;
+
+}
+
+h1,h2,h3,h4,h5{
+  color: var(--text-title);
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+p{
+  color: var(--text-p);
+}
+
+button{
+  opacity: 0.8;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-title);
+  opacity: 0.8;
+}
+
+a:hover{
+  opacity: 1;
+  cursor: pointer;
+}

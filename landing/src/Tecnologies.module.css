@@ -1,0 +1,48 @@
+.wrap-tec{
+    width: 100%;
+    height: auto;
+    min-height: 80vh;
+    background-color: var(--bg-third);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 4vh 0px;
+}
+
+.wrap-cards-tec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.wrap-btns-tec{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+}
+
+.btnTec{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--text-title);
+    color: var( --text-title);
+    transition: all 200ms ease-out;
+}
+
+.btnTec:hover{
+    border: 1px solid var(--text-p);
+    color: var(--text-p);
+    box-shadow: var(--color-shadow);
+    transition: all 200ms ease-in;
+}
+
