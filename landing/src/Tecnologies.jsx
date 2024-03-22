@@ -8,10 +8,8 @@ import htmlImg from './assets/img/HTML.png'
 import cssImg from './assets/img/CSS.png'
 import javascriptImg from './assets/img/JS.png'
 
-
 export const Tecnologies = () => {
     const [show, setShow] = useState('all');
-
     return(
         <>
             <Menu/>
