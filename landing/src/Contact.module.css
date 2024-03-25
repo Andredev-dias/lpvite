@@ -3,10 +3,6 @@
     width: 100%;
     height: auto;
 }
-.wrapMap{
-    width: 500px;
-    height: 400px;
-}
 
 .wrapH1{
     text-align: center;
@@ -18,6 +14,74 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
 }
+
+.wrapMap{
+    width: 300px;
+    height: 200px;
+}
+
+.inputsDiv{
+    width:100%;
+    padding: 2.2em;
+    height: auto;
+    border: 2px solid var(--bg-third);
+    box-shadow: var(--color-shadow);
+    border-radius: 10px;
+}
+.wrapLabelInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.labelsdiv{
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 999px;
+    width: 100%;
+    padding: 3px 10px;
+    background-color: var(--bg-secondary);
+}
+
+textarea{
+    border-radius: 10px;
+    max-height: 100px;
+    height: 100px;
+   min-height: 100px;
+   width: 200px;
+   min-width:200px;
+   max-width: 200px;
+
+
+}
+
+.btnTec{
+    margin-top: 1vh;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--text-title);
+    color: var( --text-title);
+    transition: all 200ms ease-out;
+}
+
+.btnTec:hover{
+    border: 1px solid var(--text-p);
+    color: var(--text-p);
+    box-shadow: var(--color-shadow);
+    transition: all 200ms ease-in;
+}
+
 
 

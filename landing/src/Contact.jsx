@@ -41,9 +41,10 @@ export const Contact = () => {
         <div className={style['wrap-all-contact']}>
             <Menu/>
             <h1 className={style.wrapH1}>Contato</h1>
+            <br />
             <div className={style.wrapTwoDivs}>
                 <div className={style.wrapMap}>
-                    <h2>Mapa</h2>
+                    <h2>Map</h2>
                     <MapContainer center={[geoData.lat, geoData.lng]} zoom={17} scrollWheelZoom={false} style={{width: "100%", height: "100%"}}>
                         <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -59,20 +60,20 @@ export const Contact = () => {
                 </div>
                 <div>
                     <h2>Zap</h2>
-                    <div>
-                        <div>
-                            <label htmlFor="name">Nome</label>
+                    <div className={style.inputsDiv}>
+                        <div className={style.wrapLabelInput}>
+                            <label htmlFor="name" className={style.labels}>Nome</label>
                             <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/>
                         </div>
-                        <div>
-                            <label htmlFor="email">Email</label>
+                        <div className={style.wrapLabelInput}>
+                            <label htmlFor="email" className={style.labels}>Email</label>
                             <input type="email" id='email' name='email' value={formData.email} onChange={handleChange} required/>
                         </div>
-                        <div>
-                            <label htmlFor="message">Mensagem</label>
+                        <div className={style.wrapLabelInput}>
+                            <label htmlFor="message" className={style.labels}>Mensagem</label>
                             <textarea id='message' name='message' value={formData.message} onChange={handleChange} required></textarea>
                         </div>
-                        <button onClick={handleWhatsAppMessage}>Enviar mensagem</button>
+                        <button className={style.btnTec} onClick={handleWhatsAppMessage}>Enviar mensagem</button>
                     </div>
                 </div>
             </div>
