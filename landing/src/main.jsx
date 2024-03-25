@@ -1,11 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import { Tecnologies } from './Tecnologies.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
+import App from './App.jsx'
+import { Tecnologies } from './Tecnologies.jsx';
+import { Contact } from './Contact.jsx';
+
+
 import './index.css'
 
 const router = createBrowserRouter([
@@ -16,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/tec",
     element:  <Tecnologies />,
+  },
+  {
+    path: "/contact",
+    element:  <Contact />,
   },
 ]);
 

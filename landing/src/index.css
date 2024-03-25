@@ -53,3 +53,11 @@ a:hover{
   opacity: 1;
   cursor: pointer;
 }
+
+.leaflet-control-attribution{
+  display: none;
+}
+
+.leaflet-top{
+  z-index: 888;
+}
