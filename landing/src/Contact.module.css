@@ -44,25 +44,26 @@
     width: 100%;
 }
 
-input, textarea{
+.inputS1, .txtArea{
     margin-bottom: 2vh;
     border: none;
     border-radius: 999px;
-    width: 100%;
-    padding: 3px 10px;
+    padding: 7px 10px;
     background-color: var(--bg-secondary);
+    width: 100%;
+}
+.inputS1{
+    width: 94%;
 }
 
-textarea{
-    border-radius: 10px;
-    max-height: 100px;
-    height: 100px;
+.txtArea{
+   border-radius: 10px;
+   max-height: 100px;
+   height: 100px;
    min-height: 100px;
    width: 200px;
    min-width:200px;
    max-width: 200px;
-
-
 }
 
 .btnTec{

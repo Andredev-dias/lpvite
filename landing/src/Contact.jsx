@@ -63,15 +63,15 @@ export const Contact = () => {
                     <div className={style.inputsDiv}>
                         <div className={style.wrapLabelInput}>
                             <label htmlFor="name" className={style.labels}>Nome</label>
-                            <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/>
+                            <input className={style.inputS1} type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/>
                         </div>
                         <div className={style.wrapLabelInput}>
                             <label htmlFor="email" className={style.labels}>Email</label>
-                            <input type="email" id='email' name='email' value={formData.email} onChange={handleChange} required/>
+                            <input className={style.inputS1} type="email" id='email' name='email' value={formData.email} onChange={handleChange} required/>
                         </div>
                         <div className={style.wrapLabelInput}>
                             <label htmlFor="message" className={style.labels}>Mensagem</label>
-                            <textarea id='message' name='message' value={formData.message} onChange={handleChange} required></textarea>
+                            <textarea className={style.txtArea} id='message' name='message' value={formData.message} onChange={handleChange} required></textarea>
                         </div>
                         <button className={style.btnTec} onClick={handleWhatsAppMessage}>Enviar mensagem</button>
                     </div>

@@ -6,7 +6,9 @@ export default function App() {
   return (
     <div className={style['wrap-principal']}>
       <Menu/>
-      <h1 className={style.firstPageHeading}>Bem vindo a página de aprendizado!</h1>
+      <h1 className={style.firstPageHeading}>
+        Exercícios e exemplos em react
+      </h1>
     </div>
   )
 }

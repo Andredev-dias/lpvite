@@ -10,6 +10,7 @@ import javascriptImg from './assets/img/JS.png'
 
 export const Tecnologies = () => {
     const [show, setShow] = useState('all');
+
     return(
         <>
             <Menu/>
